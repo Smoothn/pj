@@ -1,0 +1,57 @@
+/* <script src="JS/.js"></script>*/
+
+body{
+    height: 100vh;
+    background: rgb(28, 11, 180) ;
+    display: flex;
+    align-items: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    width: 920px;
+    height: 280px;
+    margin: auto;
+    position: relative;
+
+}
+
+.pinguino{
+    width: 90px;
+    height: 90px;
+    bottom: 22px;
+    left: 42px;
+    z-index: 2;
+
+    background: url(../imagenes/penguin.webp) repeat-x 0px 0px;
+    background-size: 336px 84px;
+    background-position-x: 0px ;
+}
+
+/*
+.grid{
+    width: 1340px;
+    height: 610px;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selector-separacion{
+    width: 0px;
+    height: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.grid div{
+    width: 15px;
+    height: 15px;
+}
+
+*/
