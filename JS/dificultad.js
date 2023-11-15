@@ -13,3 +13,9 @@ function dificultades(mode) {
         window.location.href = 'difficult-game.html'; // Replace 'difficult-game.html' with the actual URL of your difficult game page
     }
 }
+
+function ayuda(mode){
+    if(mode==='apretar'){
+        window.location.href = '../ayuda.html';
+    }
+}

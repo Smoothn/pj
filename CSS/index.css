@@ -1,0 +1,87 @@
+html{
+background: url(../imagenes/ice.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+
+#mapa{
+display: flex;
+flex-direction: column;
+min-height: 95vh;
+min-width: 90vw;
+}
+
+h1{
+background: linear-gradient(white, white, rgb(17, 92, 122));
+font-family: cursive;
+font-size: 70px;
+margin: 50px auto;
+color: rgb(8, 7, 105);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+filter: drop-shadow(3px 3px #000)
+}
+
+#caja{
+font-family: cursive;
+font-size: 21px;
+margin: 10px auto;
+color: rgb(242, 242, 243);
+background: linear-gradient(rgb(107, 107, 247), rgb(174, 206, 233));
+border-radius: 15px;
+padding: 5px;
+padding-left: 25px;
+padding-right: 25px;
+border: 3px solid #f8f0f0;
+box-shadow: 3px 3px #000;
+}
+
+#caja:hover{
+animation-name: caja;
+animation-duration: 0.2s;
+animation-fill-mode: forwards;
+cursor: pointer;
+}
+
+@keyframes caja{
+    0%{
+        transform: scale(100%);
+        background: linear-gradient(rgb(22, 22, 26), rgb(123, 99, 230));
+        box-shadow: 10px 15px 20px rgb(36, 30, 32);
+        color: rgb(14, 14, 19);
+    }
+    100%{
+        transform: scale(100%);
+        background: linear-gradient(rgb(22, 22, 26), 25%, rgb(123, 99, 230)(47, 0, 255));
+        box-shadow: 0px 15px 15px rgb(51, 39, 42);
+        color: rgb(11, 11, 15);
+    }
+}
+
+#Configuraciones{
+flex-direction: row;
+height: 20px;
+width: 95px;
+margin-top: -95vh;
+}
+
+#bola{
+width: 50px;
+height: 50px;
+text-align: center;
+font-size: 200%;
+margin: 5px auto;
+color: rgb(19, 18, 18);
+background: linear-gradient(rgb(107, 107, 247), rgb(174, 206, 233));
+border-radius: 50%;
+box-shadow: 3px 3px;
+}
+
+#bola:hover{
+animation-name: caja;
+animation-duration: 0.2s;
+animation-fill-mode: forwards;
+cursor: pointer;
+}
+
+
+
