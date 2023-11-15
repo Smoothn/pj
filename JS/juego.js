@@ -1,4 +1,4 @@
-<script>
+
 
 //****** GAME LOOP ********//
 
@@ -242,6 +242,3 @@ function IsCollision(a, b, paddingTop, paddingRight, paddingBottom, paddingLeft)
 }
 
 
-</script>
-</body>
-</html>
