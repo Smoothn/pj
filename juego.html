@@ -6,22 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="CSS/juego.css"/>
-    <title>Dinosaurio Chrome V2</title>
-</head>
-<body>
-    <div class="marco">
-        <div id="info">
-            <h1>MatterJS shooter</h1>
-            <p>Disparando a <span id="characterName"></span></p>
-            <hr>
-            <p><span id="score"></span> ladrillos derribados</p>
-            <button onclick="location.reload()">Volver a jugar</button>
-        </div>
-    </div>
+    <title>Angry Birds</title>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.18.0/matter.min.js"></script>
-    <script src="JS/juego.js"></script>
-    <script src="JS/ol.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/matter-js@0.14.2/build/matter.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <a href="creditos.html" id="caja">Creditos</a>
+        </div>
+        <script src="JS/tirador.js"></script>
+        <script src="JS/pinguino.js"></script>
+        <script src="JS/caja.js"></script>
+        <script src="JS/suelo.js"></script>
+        <script src="JS/juego.js"></script>
 </body>
 </html>
-
