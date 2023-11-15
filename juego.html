@@ -9,22 +9,19 @@
     <title>Dinosaurio Chrome V2</title>
 </head>
 <body>
-
-    <div class="contenedor">
-
-        <div class="bloque"></div>
-        <div class="suelo"></div>
-        
-        <div class="dino dino-corriendo"></div>
-        
-
-        <div class="score">0</div>
-
+    <div class="marco">
+        <div id="info">
+            <h1>MatterJS shooter</h1>
+            <p>Disparando a <span id="characterName"></span></p>
+            <hr>
+            <p><span id="score"></span> ladrillos derribados</p>
+            <button onclick="location.reload()">Volver a jugar</button>
+        </div>
     </div>
 
-    <div class="game-over">GAME OVER</div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.18.0/matter.min.js"></script>
     <script src="JS/juego.js"></script>
+    <script src="JS/ol.js"></script>
 </body>
 </html>
 
