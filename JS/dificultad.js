@@ -8,9 +8,9 @@ document.getElementById("dificill").addEventListener("click", function() {
 
 function dificultades(mode) {
     if (mode === 'normal') {
-        window.location.href = '../juego.html'; // Replace 'normal-game.html' with the actual URL of your normal game page
+        window.location.href = '../juego.html'; 
     } else if (mode === 'dificil') {
-        window.location.href = 'difficult-game.html'; // Replace 'difficult-game.html' with the actual URL of your difficult game page
+        window.location.href = 'difficult-game.html'; 
     }
 }
 

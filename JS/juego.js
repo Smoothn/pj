@@ -1,10 +1,4 @@
 
-// Angry Birds with Matter.js
-// The Coding Train / Daniel Shiffman
-// https://thecodingtrain.com/challenges/content/videos/challenges/138-angry-birds-with-matterjs
-// https://youtu.be/TDQzoe9nslY
-
-// Code from Challenge: https://editor.p5js.org/codingtrain/sketches/UOR4nIcNS
 
 const { Engine, World, Bodies, Mouse, MouseConstraint, Constraint } = Matter;
 
@@ -20,9 +14,9 @@ let boxImg;
 let bkgImg;
 
 function preload() {
-  dotImg = loadImage('images/dot.png');
-  boxImg = loadImage('images/equals.png');
-  bkgImg = loadImage('images/skyBackground.png');
+  dotImg = loadImage('../images/dot.png');
+  boxImg = loadImage('../images/equals.png');
+  bkgImg = loadImage('../images/skyBackground.png');
 }
 
 function setup() {
@@ -43,7 +37,7 @@ function setup() {
     mouse: mouse
   };
 
-  // A fix for HiDPI displays
+
   mouse.pixelRatio = pixelDensity();
   mConstraint = MouseConstraint.create(engine, options);
   World.add(world, mConstraint);
